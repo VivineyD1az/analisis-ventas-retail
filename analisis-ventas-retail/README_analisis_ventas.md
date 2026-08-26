@@ -2,6 +2,7 @@
 
 Proyecto de análisis de datos end-to-end (Python → SQL → Power BI) simulando el flujo de trabajo de un analista de datos junior en una empresa retail global.
 
+
 ## Contexto de negocio
 
 Este proyecto simula el rol de analista de datos de una empresa retail con operaciones globales (Global Superstore), con el objetivo de responder preguntas clave para la gerencia comercial: ¿qué categorías de producto son más rentables?, ¿está creciendo el negocio de forma saludable?, ¿hay productos o mercados generando pérdidas que requieran atención?
@@ -47,13 +48,6 @@ El dashboard incluye:
 - Tendencia de Ventas y Ganancia 2011-2014.
 - Ventas y Ganancia por Mercado global.
 
-![Dashboard](dashboard_screenshot.png)
-
-## Qué haría distinto con más tiempo
-
-- Establecer conexión en vivo Power BI–MySQL (pendiente por incompatibilidad de driver, ver arriba) en lugar de un extracto estático.
-- Investigar a nivel de transacción individual la causa raíz del descuento elevado en Furniture (¿política comercial, tipo de producto, canal de venta?).
-- Incorporar un análisis de cohortes de clientes para profundizar en el hallazgo de crecimiento por volumen de órdenes.
 
 ## Archivos del proyecto
 
